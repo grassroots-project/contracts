@@ -1,3 +1,11 @@
-cache/
-out/
 node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Artifacts files
+cache
+artifacts
+out
+deployments/local.json
