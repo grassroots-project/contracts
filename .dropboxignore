@@ -1,0 +1,7 @@
+# ----
+# Automatically Generated .dropboxignore file at 2022年 5月16日 星期一 20时58分01秒 CST
+# ----
+cache/
+out/
+node_modules
+# ----
