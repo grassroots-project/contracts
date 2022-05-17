@@ -19,9 +19,8 @@ const main = async () => {
     const outputBaseDir = "out";
 
     const contractName = "VotingEscrow";
-    const contractDir = "governance";
     const contractFile = "VotingEscrow.vy";
-    const contractFilePath = `${contractsBaseDir}/${contractDir}/${contractFile}`;
+    const contractFilePath = `${contractsBaseDir}/${contractFile}`;
 
     const contractContent = fs.readFileSync(`${process.cwd()}/${contractFilePath}`, { encoding: "utf8" });
     console.log(contractFilePath)

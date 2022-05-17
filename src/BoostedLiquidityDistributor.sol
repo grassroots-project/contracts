@@ -6,7 +6,7 @@ import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
 import {SafeTransferLib} from "@rari-capital/solmate/src/utils/SafeTransferLib.sol";
 import {ERC20} from "@rari-capital/solmate/src/tokens/ERC20.sol";
 
-/// @notice Distributes rewards to LP providers.
+/// @notice 向 LP 提供者分配奖励。
 /// @author Nation3 (https://github.com/nation3/app/blob/main/contracts/src/distributors/BoostedLiquidityDistributor.sol).
 /// @dev Inspired by Rari-Capital rewards distributor (https://github.com/Rari-Capital/rari-governance-contracts/blob/master/contracts/RariGovernanceTokenUniswapDistributor.sol).
 /// @dev Implemented boosted rewards mechanics from Curve Finance (https://github.com/curvefi/curve-dao-contracts/blob/master/contracts/gauges/LiquidityGauge.vy)
